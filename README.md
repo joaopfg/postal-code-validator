@@ -5,6 +5,21 @@
 [![github](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/joaopfg/postal-code-validator/)
 [![sponsors](https://img.shields.io/github/sponsors/joaopfg?style=flat-square&color=1da1f2)](https://github.com/sponsors/joaopfg/)
 
+- [Postal Code Validator 📮](#postal-code-validator-)
+  - [Why Validating Postal Codes is Important](#why-validating-postal-codes-is-important)
+  - [Package Completeness ✅](#package-completeness-)
+  - [Remaining Development Goals 🛠️](#remaining-development-goals-️)
+  - [Legal Notice 📜](#legal-notice-)
+  - [Contributing Guidelines 🤝](#contributing-guidelines-)
+  - [:toolbox: Functions](#toolbox-functions)
+    - [:gear: countryHasPostalCodeSystem](#gear-countryhaspostalcodesystem)
+    - [:gear: isValidCountryPostalCode](#gear-isvalidcountrypostalcode)
+    - [:gear: isValidPostalCode](#gear-isvalidpostalcode)
+  - [:wrench: Constants](#wrench-constants)
+    - [:gear: countryRegexMap](#gear-countryregexmap)
+  - [:nut\_and\_bolt: Enum](#nut_and_bolt-enum)
+    - [:gear: Country](#gear-country)
+
 ## Why Validating Postal Codes is Important
 
 Validating postal codes is crucial for ensuring accurate data in applications that rely on location-based services. Incorrect or improperly formatted postal codes can lead to errors in shipping, geolocation, and data analysis. By validating postal codes, you can improve the reliability and efficiency of your application.
@@ -33,21 +48,6 @@ While the package is already robust, there are ongoing efforts to enhance its ca
 - Development Process: To contribute, open a pull request (PR) targeting the `develop` branch. This allows for collaborative development and ensures that changes are properly reviewed before merging into the main codebase.
 
 ## :toolbox: Functions
-
-- [Postal Code Validator 📮](#postal-code-validator-)
-  - [Why Validating Postal Codes is Important](#why-validating-postal-codes-is-important)
-  - [Package Completeness ✅](#package-completeness-)
-  - [Remaining Development Goals 🛠️](#remaining-development-goals-️)
-  - [Legal Notice 📜](#legal-notice-)
-  - [Contributing Guidelines 🤝](#contributing-guidelines-)
-  - [:toolbox: Functions](#toolbox-functions)
-    - [:gear: countryHasPostalCodeSystem](#gear-countryhaspostalcodesystem)
-    - [:gear: isValidCountryPostalCode](#gear-isvalidcountrypostalcode)
-    - [:gear: isValidPostalCode](#gear-isvalidpostalcode)
-  - [:wrench: Constants](#wrench-constants)
-    - [:gear: countryRegexMap](#gear-countryregexmap)
-  - [:nut\_and\_bolt: Enum](#nut_and_bolt-enum)
-    - [:gear: Country](#gear-country)
 
 ### :gear: countryHasPostalCodeSystem
 
