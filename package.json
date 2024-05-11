@@ -1,0 +1,41 @@
+{
+    "name": "postal-code-validator",
+    "version": "1.0.0",
+    "description": "A package for validating postal codes",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "npm install && tsc",
+        "test": "jest"
+    },
+    "keywords": [
+        "postal code",
+        "validator",
+        "validation",
+        "typescript",
+        "npm",
+        "package"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaopfg/postal-code-validator.git"
+    },
+    "author": "joaopfg",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/joaopfg/postal-code-validator/issues"
+    },
+    "homepage": "https://github.com/joaopfg/postal-code-validator#readme",
+    "devDependencies": {
+        "@babel/preset-env": "^7.24.5",
+        "@babel/preset-react": "^7.24.1",
+        "@babel/preset-typescript": "^7.24.1",
+        "@types/jest": "^29.5.12",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.2",
+        "typescript": "^5.4.5"
+    }
+}
