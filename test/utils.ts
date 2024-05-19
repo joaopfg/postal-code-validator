@@ -943,4 +943,5 @@ export const invalidPostalCodesArray = [
   'GY4 6AAA',
   'GY5 7AAA',
   'SW1A 1AAA',
+  '',
 ];

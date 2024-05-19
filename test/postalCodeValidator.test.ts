@@ -42,7 +42,7 @@ describe('countryHasPostalCodeRules', () => {
 
 describe('isValidCountryPostalCode', () => {
   test.each(validPostalCodes)(
-    'returns true for valid postal code in specified country',
+    'returns true for %s',
     (entry) => {
       const result = isValidCountryPostalCode(entry.postalCode, entry.country);
       expect(result).toBe(true);
@@ -50,7 +50,7 @@ describe('isValidCountryPostalCode', () => {
   );
 
   test.each(invalidPostalCodes)(
-    'returns false for invalid postal code in specified country',
+    'returns false for %s',
     (entry) => {
       const result = isValidCountryPostalCode(entry.postalCode, entry.country);
       expect(result).toBe(false);
