@@ -41,21 +41,15 @@ describe('countryHasPostalCodeRules', () => {
 });
 
 describe('isValidCountryPostalCode', () => {
-  test.each(validPostalCodes)(
-    'returns true for %s',
-    (entry) => {
-      const result = isValidCountryPostalCode(entry.postalCode, entry.country);
-      expect(result).toBe(true);
-    }
-  );
+  test.each(validPostalCodes)('returns true for %s', (entry) => {
+    const result = isValidCountryPostalCode(entry.postalCode, entry.country);
+    expect(result).toBe(true);
+  });
 
-  test.each(invalidPostalCodes)(
-    'returns false for %s',
-    (entry) => {
-      const result = isValidCountryPostalCode(entry.postalCode, entry.country);
-      expect(result).toBe(false);
-    }
-  );
+  test.each(invalidPostalCodes)('returns false for %s', (entry) => {
+    const result = isValidCountryPostalCode(entry.postalCode, entry.country);
+    expect(result).toBe(false);
+  });
 });
 
 describe('isValidPostalCode', () => {
